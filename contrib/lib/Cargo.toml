@@ -17,6 +17,7 @@ msgpack = ["serde", "rmp-serde"]
 tera_templates = ["tera", "templates"]
 handlebars_templates = ["handlebars", "templates"]
 static_files = []
+space_helmet = ["time"]
 # Internal use only.
 templates = ["serde", "serde_json", "glob"]
 
@@ -64,6 +65,9 @@ rusted_cypher = { version = "1", optional = true }
 r2d2_cypher = { version = "0.4", optional = true }
 redis = { version = "0.9", optional = true }
 r2d2_redis = { version = "0.8", optional = true }
+
+# SpaceHelmet dependencies
+time = { version = "0.1.40", optional = true }
 
 # Contrib codegen dependencies
 rocket_contrib_codegen = { path = "../codegen", optional = true }
