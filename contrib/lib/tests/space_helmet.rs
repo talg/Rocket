@@ -1,6 +1,5 @@
 #![cfg_attr(test, feature(plugin, decl_macro))]
 #![cfg_attr(test, plugin(rocket_codegen))]
-#![feature(extern_prelude)]
 #![feature(proc_macro_non_items)]
 
 #[macro_use] extern crate rocket;
